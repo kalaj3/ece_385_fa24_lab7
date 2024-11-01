@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="lab7_1" location="C:/Users/jkali/ece385/lab7/lab7_1/lab7_1_sdk/lab7_1" platform="C:/Users/jkali/ece385/lab7/lab7_1/lab7_1_sdk/lab7_1_top/export/lab7_1_top/lab7_1_top.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="lab7_1_system" sysConfig="lab7_1_top" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="8af3f19352563dce43e9beff8a9963b9">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1087362479">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1513959016" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

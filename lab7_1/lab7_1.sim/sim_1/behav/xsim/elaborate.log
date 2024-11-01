@@ -1,0 +1,25 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L microblaze_v11_0_10 -L lmb_v10_v3_0_12 -L lmb_bram_if_cntlr_v4_0_21 -L blk_mem_gen_v8_4_5 -L axi_lite_ipif_v3_0_4 -L axi_intc_v4_1_17 -L xlconcat_v2_1_4 -L mdm_v3_2_23 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_27 -L fifo_generator_v13_2_7 -L axi_data_fifo_v2_1_26 -L axi_crossbar_v2_1_28 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L axi_uartlite_v2_0_31 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lab7_1_top_behav xil_defaultlib.lab7_1_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'hdmi_tmds_data_p' on this module [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.srcs/sources_1/new/lab7_1_top.sv:78]
+ERROR: [VRFC 10-3180] cannot find port 'hdmi_tmds_data_n' on this module [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.srcs/sources_1/new/lab7_1_top.sv:77]
+ERROR: [VRFC 10-3180] cannot find port 'hdmi_tmds_clk_p' on this module [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.srcs/sources_1/new/lab7_1_top.sv:76]
+ERROR: [VRFC 10-3180] cannot find port 'hdmi_tmds_clk_n' on this module [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.srcs/sources_1/new/lab7_1_top.sv:75]
+ERROR: [VRFC 10-3180] cannot find port 'axi_aresetn_0' on this module [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.srcs/sources_1/new/lab7_1_top.sv:74]
+ERROR: [VRFC 10-3180] cannot find port 'axi_aclk_0' on this module [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.srcs/sources_1/new/lab7_1_top.sv:73]
+ERROR: [VRFC 10-2063] Module <mb_usb_clk_wiz_1_0> not found while processing module instance <clk_wiz_1> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:574]
+ERROR: [VRFC 10-2063] Module <mb_usb_hdmi_text_controller_0_0> not found while processing module instance <hdmi_text_controller_0> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:579]
+ERROR: [VRFC 10-2063] Module <mb_usb_mdm_1_0> not found while processing module instance <mdm_1> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:601]
+ERROR: [VRFC 10-2063] Module <mb_usb_microblaze_0_0> not found while processing module instance <microblaze_0> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:612]
+ERROR: [VRFC 10-2063] Module <mb_usb_microblaze_0_axi_intc_0> not found while processing module instance <microblaze_0_axi_intc> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:667]
+ERROR: [VRFC 10-2063] Module <mb_usb_dlmb_bram_if_cntlr_0> not found while processing module instance <dlmb_bram_if_cntlr> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:1532]
+ERROR: [VRFC 10-2063] Module <mb_usb_dlmb_v10_0> not found while processing module instance <dlmb_v10> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:1555]
+ERROR: [VRFC 10-2063] Module <mb_usb_ilmb_bram_if_cntlr_0> not found while processing module instance <ilmb_bram_if_cntlr> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:1580]
+ERROR: [VRFC 10-2063] Module <mb_usb_ilmb_v10_0> not found while processing module instance <ilmb_v10> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:1601]
+ERROR: [VRFC 10-2063] Module <mb_usb_lmb_bram_0> not found while processing module instance <lmb_bram> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:1626]
+ERROR: [VRFC 10-2063] Module <mb_usb_microblaze_0_xlconcat_0> not found while processing module instance <microblaze_0_xlconcat> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:798]
+ERROR: [VRFC 10-2063] Module <mb_usb_rst_clk_wiz_1_100M_0> not found while processing module instance <rst_clk_wiz_1_100M> [C:/Users/jkali/ece385/lab7/lab7_1/lab7_1.ip_user_files/bd/mb_usb/sim/mb_usb.v:802]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
